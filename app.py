@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 
 # 1. Konfigurasi Tampilan
 st.set_page_config(page_title="Kategori Obat Apotek Anugerah", layout="wide")
-st.markdown("<h1 style='text-align: center; color: #2E7D32;'>🌿 Sistem Kategori Obat</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2E7D32;'>🌿Kategori Obat</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'>Apotek Anugerah Bekasi - Penentuan Kategori Fast, Medium, & Slow Moving</p>", unsafe_allow_html=True)
 st.divider()
 
