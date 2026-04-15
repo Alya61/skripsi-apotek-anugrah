@@ -70,7 +70,7 @@ if uploaded_file:
         # --- BAGIAN 3 TABEL KATEGORI (REVISI) ---
         st.subheader("📋 Daftar Obat Per Kategori")
         
-        col_fast, col_med, col_slow = st.tabs(["🔴 Fast Moving", "🟠 Medium Moving", "🔵 Slow Moving"])
+        col_fast, col_med, col_slow = st.tabs(["🔵 Fast Moving", "🟠 Medium Moving", "🔴 Slow Moving"])
 
         with col_fast:
             st.success("Daftar Obat Prioritas Tinggi (Penjualan Paling Cepat)")
